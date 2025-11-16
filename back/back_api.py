@@ -98,7 +98,7 @@ def find_coordinates_sparse_hybrid(req: AddressRequest, k=10, score_threshold=50
             # ИЗМЕНЕНИЕ 3: Используйте правильные имена колонок из вашего DataFrame!
             'found_address': result_row['address'], 
             'street': result_row['street'],
-            'housenumber': int(result_row['housenumber']),
+            'housenumber': str(result_row['housenumber']),
             'latitude': result_row['latitude'],
             'longitude': result_row['longitude'],
             # ИЗМЕНЕНИЕ 4: Правильная метка для score
