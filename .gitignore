@@ -1,0 +1,21 @@
+# Virtual environment
+clean_env/
+.env/
+.env.local
+
+# PyCache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+back_test.py
